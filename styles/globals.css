@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+     body {
+          @apply text-gray-300 bg-[#06102A];
+     }
+}
+
+.hello {
+     @apply text-3xl;
+}
